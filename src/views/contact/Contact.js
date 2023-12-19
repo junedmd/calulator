@@ -1,18 +1,22 @@
 import Navbar from "./../../components/navbar/Navbar"
 import Footer from "../../components/footer/Footer"
-import imgfooter from "./New folder/about1.jpg"
+import "./Contact.css"
+// import imgjk from "./images/first.jpg"
+
 export default function Contact(){
     return(
         <>
         <div>
         <Navbar/>
-        <h2> this is conatact page </h2>
-        < img src={imgfooter}   style={{ width: '100%', height: '400px' }} />
+        <div className="juned">
+         {/* <img src={imgjk} style={{ width: '100%', height: '500px' }}/> */}
+         <p>
+            juned
+         </p>
 
-    
 
-
-
+        </div>
+       
         <Footer/>
       
             
